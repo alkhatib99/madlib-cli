@@ -2,7 +2,7 @@
 
 ## Author: Abedalqader Alkhatib
 
-- [Pull Request](https://github.com/alkhatib99/madlib-cli/pull/1)
+- [*Pull Request*](https://github.com/alkhatib99/madlib-cli/pull/1)
 
 ---
 
