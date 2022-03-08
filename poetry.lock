@@ -107,10 +107,18 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[[package]]
+name = "yapf"
+version = "0.32.0"
+description = "A formatter for Python code."
+category = "dev"
+optional = false
+python-versions = "*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "c27944f25b55067b06883f1cea204be7d97841a4b8228fab69b91895347494ad"
+content-hash = "f6d6f4b3ebf2a4227e05fb211b02c470042a21750bdb772df5fe09efbd1ab321"
 
 [metadata.files]
 atomicwrites = [
@@ -152,4 +160,8 @@ pytest = [
 wcwidth = [
     {file = "wcwidth-0.2.5-py2.py3-none-any.whl", hash = "sha256:beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784"},
     {file = "wcwidth-0.2.5.tar.gz", hash = "sha256:c4d647b99872929fdb7bdcaa4fbe7f01413ed3d98077df798530e5b04f116c83"},
+]
+yapf = [
+    {file = "yapf-0.32.0-py2.py3-none-any.whl", hash = "sha256:8fea849025584e486fd06d6ba2bed717f396080fd3cc236ba10cb97c4c51cf32"},
+    {file = "yapf-0.32.0.tar.gz", hash = "sha256:a3f5085d37ef7e3e004c4ba9f9b3e40c54ff1901cd111f05145ae313a7c67d1b"},
 ]
