@@ -14,14 +14,14 @@ def wlcMsg():
 wlcMsg()
 
 def read_template(path):
-    """ This function read text file and return a stripped string of the file’s contents. """
+    """ This function read text file and return a stripped string of the file is contents. """
     try:
-     with open(path) as tmp_file:
-        file_content=tmp_file.read().strip()
-        print('\n'+file_content+'\n')
-        return file_content
+        with open(path) as tmp_file:
+            file_content=tmp_file.read().strip()
+            print('\n'+file_content+'\n')
+            return file_content
     except:
-        raise FileNotFoundError(f"({path}) was not found ")
+        raise FileNotFoundError("{path} was not found".format(path))
 
 
 def parse_template(str):
